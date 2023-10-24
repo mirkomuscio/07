@@ -1,15 +1,70 @@
 
-table{
+#tabla1{
     background-color: white;
     color: black;
-    border: 1px solid;
+     border: 1px solid;
+  
     text-align: center;
     border-collapse: collapse;
+    
 }
-th{
+#tabla1 th{
     font-size: 1.4em;
 
 }
-td{
+#tabla1 td{
     border: 1px solid;
+}
+
+#tabla2{
+    background-color: white;
+    color: black;
+   
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    width: 68%;
+}
+th{
+    background-color: grey;
+    color: #d5d5d5;
+}
+td{
+    border-bottom: 1px solid #BDBDBD;
+
+}
+.pos{
+    background-image: url(assets/img/posicion.jpeg) ;
+    
+}
+.nombre{
+    font-family: 'Catamaran', sans-serif;
+    height: 10 PX;
+    
+}
+
+header{
+    display: flex; /* Establece el encabezado como un contenedor flex */
+    align-items: center; /* Alinea los elementos del encabezado a lo largo de la línea de base */
+     /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
+    padding: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 85px;
+}
+  
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px;
+}
+  
+nav li {
+    display: inline;
+    text-align: center;
+    margin-right: 100px;
 }
