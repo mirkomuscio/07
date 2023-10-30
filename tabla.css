@@ -50,6 +50,7 @@ header{
     align-items: center; /* Alinea los elementos del encabezado a lo largo de la línea de base */
      /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
     padding: 5px;
+    justify-content: space-between;
 }
 nav {
     display: flex;
@@ -67,4 +68,37 @@ nav li {
     display: inline;
     text-align: center;
     margin-right: 100px;
+}
+footer {
+    margin-top: 10px;
+    padding: 100px;
+    background-color: #e60000;
+    
+}
+#logo{
+    display: inline-block;
+    padding: 10px;
+  }
+#contacto{
+    color: #878786;
+    
+}
+.contacto{
+    margin-left: 90px;
+}
+#redes{
+    margin-right: 90px;
+}
+.pie{
+    display: flex; /* Establece el encabezado como un contenedor flex */
+    justify-content: space-between; /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
+
+}
+#copyright{
+    margin-left: 90px;
+    margin-top: 100px;
+    
+}
+.redes{
+    padding: 5px;
 }
