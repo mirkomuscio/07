@@ -1,4 +1,8 @@
 
+body{
+    margin: 0;
+    padding: 0;
+}
 #tabla1{
     background-color: white;
     color: black;
@@ -19,7 +23,7 @@
 #tabla2{
     background-color: white;
     color: black;
-   
+
     text-align: center;
     border-collapse: collapse;
     margin: 0 auto;
@@ -51,6 +55,7 @@ header{
      /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
     padding: 5px;
     justify-content: space-between;
+    background-color: #878786;
 }
 nav {
     display: flex;
@@ -62,12 +67,14 @@ nav ul {
     list-style-type: none;
     display: flex;
     margin-right: 50px;
+    
 }
   
 nav li {
     display: inline;
     text-align: center;
     margin-right: 100px;
+   
 }
 footer {
     margin-top: 10px;
@@ -79,11 +86,11 @@ footer {
     display: inline-block;
     padding: 10px;
   }
-#contacto{
-    color: #878786;
+#competencias{
+    color: #ffffff;
     
 }
-.contacto{
+.competencias{
     margin-left: 90px;
 }
 #redes{
@@ -101,4 +108,21 @@ footer {
 }
 .redes{
     padding: 5px;
+}
+.cuerpo{
+padding: 50px;
+}
+.competencias ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    color: #e60000;
+}
+.lupa{
+    margin-right: 5px;
 }
